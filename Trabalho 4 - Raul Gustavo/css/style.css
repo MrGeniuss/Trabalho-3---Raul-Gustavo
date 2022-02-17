@@ -6,6 +6,8 @@ html{
 body{
     background-color: yellow;
     color: black;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 .container {
@@ -21,6 +23,7 @@ body{
     border: solid 1px black;
     background-color: white;
     padding: 5px;
+    border-radius: 10px;
 }
 
 header{
@@ -35,9 +38,10 @@ header{
 
 main{
     grid-column: 1 / span 2;
-    height: 400px;
+    height: 600px;
 }
 
 footer{
     grid-column: 1 / span 3;
+    height: 120px;
 }
