@@ -4,7 +4,7 @@ html{
 }
 
 body{
-    background-color: yellow;
+    background-color: pink;
     color: black;
 }
 
@@ -14,8 +14,8 @@ h3{
 
 .container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
     gap: 10px;
     background-color: blue;
     padding: 10px;
@@ -31,23 +31,25 @@ h3{
 }
 
 header{
-    grid-column: 1 / span 3;
-    height: 200px;
+    grid-column: 1 / span 2;
+    height: 200px; 
+    width: 800px;
 }
 
 .Bloco2{
-    grid-column: 1 / span 3;
-    height: 60px;
-}
+    grid-column: 3;
+    grid-row: 1 / span 2;
+} 
 
 main{
-    grid-column: 1 / span 2;
-    height: 600px;
+    grid-column: 4;
+    grid-row: 1 / span 2;
 }
 
 footer{
-    grid-column: 1 / span 3;
-    height: 120px;
+    /* /* grid-column: 1 / span 3;
+    height: 120px; */
+    /* grid-row: 2 / span 3;  */
 }
 
 .link{
