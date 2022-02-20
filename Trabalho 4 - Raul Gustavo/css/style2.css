@@ -14,8 +14,8 @@ h3{
 
 .container {
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto;
+    grid-template-columns: auto auto 250px 250px;
+    grid-template-rows: 300px 240px;
     gap: 10px;
     background-color: blue;
     padding: 10px;
@@ -32,8 +32,7 @@ h3{
 
 header{
     grid-column: 1 / span 2;
-    height: 200px; 
-    width: 800px;
+    grid-row: 1;
 }
 
 .Bloco2{
@@ -46,10 +45,14 @@ main{
     grid-row: 1 / span 2;
 }
 
+.Bloco4{
+    grid-column: 1;
+    grid-row: 2;
+}
+
 footer{
-    /* /* grid-column: 1 / span 3;
-    height: 120px; */
-    /* grid-row: 2 / span 3;  */
+    grid-column: 2;
+    grid-row: 2;
 }
 
 .link{
